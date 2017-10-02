@@ -1,4 +1,4 @@
-const playlist = {
+var playlist = {
   Korn: "Blind"
 };
 
