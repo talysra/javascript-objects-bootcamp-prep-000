@@ -2,4 +2,6 @@ var playlist = {
   Korn: "Blind"
 };
 
-updatePlaylist(playlist, 'Rammstein', 'Adios')
+function updatePlaylist(playlist, 'Rammstein', 'Adios')) {
+  return Object.assign({}, playlist, { [Rammstein]: 'Adios' })
+};
