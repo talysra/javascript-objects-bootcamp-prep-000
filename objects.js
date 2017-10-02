@@ -2,6 +2,6 @@ var playlist = {
   Korn: "Blind"
 };
 
-function updatePlaylist() {
+function updatePlaylist(playlist, Korn, ) {
 
 }
