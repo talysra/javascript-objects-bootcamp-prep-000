@@ -1,7 +1,10 @@
-var playlist = {
+const playlist = {
   Korn: "Blind"
 };
 
-function updatePlaylist(playlist, Korn, ) {
+function updatePlaylist(obj, key, value) {
 
+  return Object.assign({}, obj, { [key]: value })
 }
+
+updatePlaylist(playlist, 'Rammstein', 'Adios')
